@@ -2,6 +2,7 @@ import React from "react";
 import FormattedDate from "./FormattedDate";
 import WeatherIcon from "./WeatherIcon";
 import WeatherTemperature from "./WeatherTemperature";
+import TemperatureConversion from "./TemperatureConversion";
 
 export default function WeatherInfo(props) {
   return (
@@ -23,6 +24,9 @@ export default function WeatherInfo(props) {
             <div>
               <WeatherTemperature celsius={props.data.temperature} />
             </div>
+            <div>
+                <TempConversion celsius={props.data.temp} />
+              </div>
           </div>
         </div>
         <div className="col-6">
