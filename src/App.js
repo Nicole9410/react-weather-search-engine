@@ -7,9 +7,16 @@ export default function App() {
     <div className="App">
       <div className="container">
         <Weather defaultCity="Cape Town" />
+
         <footer>
-          <a href="https://github.com/Nicole9410/react-weather-search-engine" target="_blank" rel="noreferrer"> Open-source code </a>
-          by Nicole de Wee.
+          <a
+            href="https://github.com/Nicole9410/react-weather-search-engine"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Open-sourced coded by{" "}
+          </a>{" "}
+          Nicole de Wee
         </footer>
       </div>
     </div>
